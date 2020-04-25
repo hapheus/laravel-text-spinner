@@ -1,0 +1,30 @@
+{
+  "name": "hapheus/laravel-text-spinner",
+  "description": "A Laravel package to spin text.",
+  "keywords": ["text spinner", "laravel", "spinner", "text generator", "random text"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Franz Haberfellner",
+      "email": "haf68k@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HAF\\TextSpinner\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support": "^5|^6|^7"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "HAF\\TextSpinner\\TextSpinnerServiceProvider"
+      ],
+      "aliases": {
+        "TextSpinner": "HAF\\TextSpinner\\TextSpinnerFacade"
+      }
+    }
+  }
+}
