@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -16,12 +15,3 @@ jobs:
 
     - name: Validate composer.json and composer.lock
       run: composer validate
-
-    - name: Install dependencies
-      run: composer install --prefer-dist --no-progress --no-suggest
-
-    - name: PHP Unit Tests
-      run: composer test
-
-    - name: PHP Code Sniffer
-      run: composer check-style
