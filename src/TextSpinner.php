@@ -10,7 +10,7 @@ namespace HAF\TextSpinner;
 class TextSpinner implements TextSpinnerInterface
 {
     /**
-     * Process
+     * Spin
      *
      * @param string $text
      *
