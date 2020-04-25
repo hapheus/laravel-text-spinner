@@ -1,4 +1,4 @@
-# Laravel Test Spinner
+# Laravel Text Spinner
 
 ![build](https://img.shields.io/github/workflow/status/hapheus/laravel-text-spinner/PHP%20Composer/master)
 ![PHP Composer](https://github.com/hapheus/laravel-text-spinner/workflows/PHP%20Composer/badge.svg?branch=master)
