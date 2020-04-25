@@ -28,7 +28,7 @@ class TextSpinner implements TextSpinnerInterface
      *
      * @return string
      */
-    public function replace(array $text): string
+    private function replace(array $text): string
     {
         $text = $this->spin($text[1]);
         $parts = explode('|', $text);
